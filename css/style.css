@@ -22,3 +22,29 @@ div{
     margin: 8px;
     
 }
+/* CSS for buttons */
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+button:active {
+    background-color: #0056b3;
+}
+
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 5px #007bff;
+}
